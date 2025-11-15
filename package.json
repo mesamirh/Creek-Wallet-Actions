@@ -1,0 +1,28 @@
+{
+  "name": "creek-cli-wallet-actions",
+  "version": "1.0.0",
+  "description": "CLI tool to automate Creek Finance interactions on Sui testnet.",
+  "main": "index.mjs",
+  "type": "module",
+  "scripts": {
+    "start": "node index.mjs"
+  },
+  "keywords": [
+    "sui",
+    "creek",
+    "cli",
+    "automation"
+  ],
+  "author": "",
+  "license": "ISC",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "@mysten/sui.js": "^0.54.1",
+    "chalk": "^5.3.0",
+    "dotenv": "^16.4.5",
+    "inquirer": "^9.2.23",
+    "ora": "^8.0.1"
+  }
+}
